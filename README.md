@@ -2,10 +2,10 @@
 Gesture Volume Control Software For Windows
 
 ## Technologies Used
-Python: Programming language  
-OpenCV: To capture webcam input  
-Mediapipe: To detect, track hands  
-Pycaw: To control system volume on Windows  
+Python    : Programming language  
+OpenCV    : To capture webcam input  
+Mediapipe : To detect, track hands  
+Pycaw     : To control system volume on Windows  
 
 ## Description  
 1) In this project I have build a gesture volume control system which will allows us  to control the volume of the computer by just using two fingers.  
