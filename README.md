@@ -13,8 +13,8 @@ Pycaw     : To control system volume on Windows
 3) To build this app we use opencv's python module which allows us to capture video from our web cam, frame-by-frame.  
 4) Once the video is captured then MediaPipe is used which provides us a set of already trained machine learning models which allows us to detect hands in a live video. 
 5) Then detecting the key points on our hands to detect a gesture and find the distance between tips of two fingers so that we could control system volume.  
-![image](https://user-images.githubusercontent.com/102078863/208752098-c1c48492-f2b1-4097-90a8-d335c8316860.png)  
-6) At alst using pycaw on Windows to control the system volume and integrate the two things together so that volume could be controlled by two fingers.
+  ![image](https://user-images.githubusercontent.com/102078863/208752386-bff35419-7d02-4dbf-ae67-7c4bddafd14d.png)  
+7) At alst using pycaw on Windows to control the system volume and integrate the two things together so that volume could be controlled by two fingers.
 
 
 
