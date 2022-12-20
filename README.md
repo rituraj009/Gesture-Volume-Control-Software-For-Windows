@@ -64,6 +64,12 @@ Pycaw     : To control system volume on Windows
 
 ![image](https://user-images.githubusercontent.com/102078863/208759502-5ef1707e-c82a-4175-ba2d-2ea996dfacc7.png)
 
+### OpenCV vs Mediapipe
+* Focus: OpenCV is primarily focused on image and video processing, while MediaPipe is focused on building multimodal machine learning pipelines (i.e., involving multiple modalities such as audio, video, and text).
+* Functionality: OpenCV provides a wide range of tools and functions for image and video processing, including image filtering, morphological operations, color space conversion, edge detection, and object tracking. It also includes machine learning algorithms for training and predicting models on image and video data. 
+* MediaPipe, on the other hand, provides a set of pre-built, reusable components called "Calculators" that can be combined to build custom ML pipelines, as well as tools for training and evaluating ML models and deploying them in production environments.
+* Overall, OpenCV and MediaPipe are both useful tools for building computer vision and machine learning pipelines, but they have different focuses and functionality. OpenCV is more general-purpose and is primarily focused on image and video processing, while MediaPipe is specifically designed for building multimodal machine learning pipelines.
 
+## THANKYOU FOR VISITING :smile:
 
 
