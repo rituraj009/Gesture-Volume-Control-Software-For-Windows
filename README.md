@@ -12,9 +12,8 @@ Pycaw     : To control system volume on Windows
 2) This software captures your webcam input, detects focal points on your hand like the fingertips and joints and allows us to find the distance between two points.  
 3) To build this app we use opencv's python module which allows us to capture video from our web cam, frame-by-frame.  
 4) Once the video is captured then MediaPipe is used which provides us a set of already trained machine learning models which allows us to detect hands in a live video. 
-5) Then detecting the key points on our hands to detect a gesture and find the distance between tips of two fingers so that we could control system volume.  
-  ![image](https://user-images.githubusercontent.com/102078863/208752386-bff35419-7d02-4dbf-ae67-7c4bddafd14d.png)  
-7) At last using pycaw on Windows to control the system volume and integrate the two things together so that volume could be controlled by two fingers.
+5) Then detecting the key points on our hands to detect a gesture and find the distance between tips of two fingers so that we could control system volume.   
+6) At last using pycaw on Windows to control the system volume and integrate the two things together so that volume could be controlled by two fingers.
 
 ## Installation
 1) Python x.x < Python 3.9
@@ -46,3 +45,25 @@ Pycaw     : To control system volume on Windows
 ## KEY CONCEPTS  
 ### OpenCV
 * OpenCV (Open Source Computer Vision) is a free and open-source library of computer vision and machine learning algorithms for image and video processing. It was developed by Intel in 1999 and is now maintained by a community of developers.
+* OpenCV is written in C++ and has interfaces for several programming languages, including Python, Java, and C#. 
+* It is widely used in computer vision applications, such as object recognition, face detection, and image and video analysis. It is also commonly used in robotics, surveillance systems, and medical image analysis.
+* Overall, OpenCV is a powerful and versatile tool for computer vision and machine learning tasks, and it is widely used in a variety of applications.
+
+### MediaPipe
+* MediaPipe is an open-source framework developed by Google for building multimodal (i.e., involving multiple modalities such as audio, video, and text) machine learning pipelines.
+* It is designed to make it easy for developers to build and deploy complex multimodal ML models for tasks such as object detection, face recognition, and language translation.
+* MediaPipe is written in C++ and provides a set of pre-built, reusable components called "Calculators" that can be combined to build custom ML pipelines. These Calculators can perform a variety of tasks, such as video and audio decoding, image processing, and machine learning inference. 
+* MediaPipe also includes a set of tools for training and evaluating ML models, as well as for deploying them in production environments.
+* Overall, MediaPipe is a powerful and flexible framework for building and deploying multimodal machine learning models, and it is widely used in a variety of applications such as augmented reality, robotics, and natural language processing.
+
+#### Mediapipe HANDS (Used in Project)
+* MediaPipe Hands is a high-fidelity hand and finger tracking solution. It employs machine learning (ML) to infer 21 3D landmarks of a hand from just a single frame.
+* It uses Hand Landmark Model for performing precise keypoint localization of 21 3D hand-knuckle coordinates inside the detected hand regions via regression, that is direct coordinate prediction. The model learns a consistent internal hand pose representation and is robust even to partially visible hands and self-occlusions.  
+
+![image](https://user-images.githubusercontent.com/102078863/208759480-c9010c2f-bc56-4557-ab1d-63cd888f577c.png)  
+
+![image](https://user-images.githubusercontent.com/102078863/208759502-5ef1707e-c82a-4175-ba2d-2ea996dfacc7.png)
+
+
+
+
