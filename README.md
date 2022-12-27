@@ -1,5 +1,5 @@
-# OpenCV-Project
-Gesture Volume Control Software For Windows
+# Gesture Volume Control Software For Windows
+OpenCV-Project
 
 ## Technologies Used
 Python    : Programming language  
